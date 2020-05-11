@@ -5,7 +5,9 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	justify-content: center;
 }
+
 
 .banner {
 	position: relative;
@@ -15,6 +17,19 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.banner header {
+	padding: 20px 50px;
+}
+
+.banner .content h2 {
+	font-size: 60px;
+	color: white;
+}
+
+.banner .content p {
+	color: #fff;
 }
 
 .banner img {
@@ -109,12 +124,13 @@
 	justify-content: center;
 }
 
+
 .container {
-	width: 1000px;
+	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 60px;
+	margin: 60px auto;
 }
 
 .box {
@@ -266,7 +282,52 @@
 	letter-spacing: 1px;
 }
 
-
+@media (max-width: 991px) 
+{
+	.banner {
+		padding: 50px;
+	}
+	.banner header {
+		padding: 20px 50px;
+	}
+	.banner .content h2 {
+		font-size: 36px;
+	}
+	.banner .content p { 
+		font-size: 16px;
+	}
+	.about {
+		flex-direction: column;
+	}
+	.about .contentBx,
+	.about .imgBx ,
+	.about .imgBx2 {
+		width: 100%;
+		padding: 50px;
+		min-height: 400px;
+		text-align: center;
+	}
+	.services {
+		padding: 50px;
+	}
+	.services .container {
+		justify-content: center;
+		margin-top: 20px;
+	}
+	.services .container .box {
+		margin: 20px;
+		width: 300px;
+		height: 350px;
+	}
+	.contact{
+		padding: 50px;
+	}
+	.footer {
+		padding: 20px 50px;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+}
 
 
 
