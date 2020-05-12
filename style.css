@@ -4,8 +4,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	position: relative;
 	font-family: 'Poppins', sans-serif;
+	justify-content: center;
 }
 
 
@@ -87,7 +87,6 @@
 	position: relative;
 	width: 100%;
 	display: flex;
-	background: #162c3b;
 }
 
 .about .contentBx {
@@ -123,7 +122,6 @@
 	padding: 100px;
 	text-align: center;
 	justify-content: center;
-	z-index: 1;
 }
 
 
